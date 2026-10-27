@@ -116,3 +116,5 @@
         @endif
     </div>
 </x-layouts.app>
+    @if ($isEdit)
+        <p class="mt-2 text-xs text-stone-500">Leave blank to keep the current password.</p>
