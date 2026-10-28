@@ -91,9 +91,6 @@ class ImportPasswordWordlist extends Command
         return self::SUCCESS;
     }
 
-    /**
-     * @param  array<string, array<string, mixed>>  $batch
-     */
     private function insertBatch(array $batch, int &$duplicates): int
     {
         if ($batch === []) {

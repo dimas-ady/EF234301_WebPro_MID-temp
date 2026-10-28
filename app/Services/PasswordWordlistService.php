@@ -34,9 +34,6 @@ class PasswordWordlistService
         return $this->isAvailable() ? $this->matches($password) : null;
     }
 
-    /**
-     * @return array{checked: int, skipped: int}
-     */
     public function refreshCredentials(): array
     {
         $checked = 0;

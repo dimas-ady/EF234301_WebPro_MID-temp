@@ -140,9 +140,6 @@ class CredentialController extends Controller
         return $request->user()->credentials()->findOrFail($credential);
     }
 
-    /**
-     * @return array<string, mixed>
-     */
     private function validateCredential(Request $request, bool $passwordRequired): array
     {
         return $request->validate([
