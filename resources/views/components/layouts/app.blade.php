@@ -69,7 +69,6 @@
                         <h1 class="text-lg font-semibold text-stone-900 sm:text-xl">{{ $title ?? 'Vault' }}</h1>
                     </div>
                 </div>
-                <span class="hidden rounded-full border border-stone-200 bg-stone-50 px-3 py-1.5 text-xs font-medium text-stone-500 sm:inline-flex">Milestone 8</span>
             </header>
             <main class="min-h-[calc(100vh-5rem)] px-4 py-8 sm:px-6 lg:px-10 lg:py-10">{{ $slot }}</main>
         </div>
